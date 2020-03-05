@@ -1,0 +1,7 @@
+print('Hello this program converts farenheit to celsius')
+print()
+
+farenheit = int(input("Enter degrees Farenheit: "))
+celsius = farenheit - 5/9 - 32
+
+print('The temperature is', celsius, 'degrees Celsius')
